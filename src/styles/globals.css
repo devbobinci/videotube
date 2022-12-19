@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply bg-black w-full;
+  }
+
+  .video-item {
+    @apply flex items-center cursor-pointer rounded-lg;
+  }
+
+  .video-item.item img {
+    @apply max-w-[180px];
+  }
+}
